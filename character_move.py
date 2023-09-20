@@ -42,11 +42,9 @@ def run_rectangle():
     # bottom line2
     for x in range(50,400+1,10):
         render_all(x,90)
-    pass
 
 while True:
-    #run_circle()
     run_rectangle()
-    break
+    run_circle()
 
 close_canvas()
